@@ -46,8 +46,8 @@ p {
     display: grid;
     grid-template-columns: repeat(22, 1fr);
     grid-template-rows: repeat(25, 1fr);
-    grid-column-gap: 1px;
-    grid-row-gap: 1px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
 }
 
 .div {
@@ -70,7 +70,7 @@ input {
     padding: auto;
     text-align: center;
     border: 1px solid purple;
-
+    border-radius: 4px;
     outline: 0 none;
     font-size: 18px;
 }
