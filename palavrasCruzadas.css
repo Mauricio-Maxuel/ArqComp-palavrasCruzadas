@@ -44,6 +44,7 @@ p {
     float: left;
     margin-left: 30px;
     display: grid;
+    margin-top: -4%;
     grid-template-columns: repeat(22, 1fr);
     grid-template-rows: repeat(25, 1fr);
     grid-column-gap: 2px;
@@ -73,6 +74,11 @@ input {
     border-radius: 4px;
     outline: 0 none;
     font-size: 18px;
+}
+
+.inputDisabled{
+    pointer-events: none;
+    background-color: red;
 }
 
 .div1 {
