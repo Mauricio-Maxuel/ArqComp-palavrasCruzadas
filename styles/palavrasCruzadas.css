@@ -3,8 +3,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover; */
 
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     display: flex;
 
     margin: 0;
@@ -32,7 +32,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     height: 100%;
 }
 
-.titulo{
+#final img {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    border-radius: 10px;
+    filter: drop-shadow(30px 30px 10px rgba(9, 9, 121, 1));
+}
+
+.titulo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +50,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     margin-top: 5%;
 
 }
-.titulo h3{
+
+.titulo h3 {
     margin: 0;
 }
 
@@ -51,23 +60,24 @@ p {
     font-size: 11.78px;
 }
 
-.texto{
+.texto {
     display: flex;
     gap: 2%;
     font-size: 0.9rem;
 }
 
-.leftTxt{
+.leftTxt {
     width: 50%;
     margin-left: 2%;
     margin-bottom: 2%;
 }
 
-.rightTxt{
+.rightTxt {
     width: 50%;
     margin-right: 2%;
     margin-bottom: 2%;
 }
+
 .parent {
     height: 100%;
     width: 68%;
@@ -90,7 +100,7 @@ p {
 
 .number {
     position: absolute;
-    color:blue;
+    color: blue;
     font-weight: 700;
     left: 2px;
     top: 2px;
@@ -110,10 +120,10 @@ input {
     font-size: 18px;
 }
 
-.inputDisabled{
+.inputDisabled {
     pointer-events: none;
     background-color: rgb(17, 22, 177);
-	color: white;
+    color: white;
     border: 1px solid rgb(148, 146, 233)
 }
 
@@ -396,10 +406,11 @@ input {
 
 
 .div35 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 10 / 10 / 11 / 11;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 10 / 10 / 11 / 11;
+
 
 }
 
@@ -468,329 +479,370 @@ filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 10 / 10 / 11 / 11;
 
 
 .div44 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 13 / 10 / 14 / 11;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 13 / 10 / 14 / 11;
+
 
 }
 
 .div45 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 12 / 10 / 13 / 11;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 12 / 10 / 13 / 11;
+
 
 }
 
 .div46 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 14 / 10 / 15 / 11;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 14 / 10 / 15 / 11;
+
 
 }
 
 .div47 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 13 / 11 / 14 / 12;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 13 / 11 / 14 / 12;
+
 
 }
 
 .div48 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 13 / 12 / 14 / 13;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 13 / 12 / 14 / 13;
+
 
 }
 
 .div49 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 13 / 13 / 14 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 13 / 13 / 14 / 14;
+
 
 }
 
 .div50 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 10 / 13 / 11 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 10 / 13 / 11 / 14;
+
 
 }
 
 .div51 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 11 / 13 / 12 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 11 / 13 / 12 / 14;
+
 
 }
 
 .div52 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 12 / 13 / 13 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 12 / 13 / 13 / 14;
+
 
 }
 
 .div53 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 12 / 14 / 13 / 15;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 12 / 14 / 13 / 15;
+
 
 }
 
 .div54 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 14 / 13 / 15 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 14 / 13 / 15 / 14;
+
 
 }
 
 .div55 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 15 / 13 / 16 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 15 / 13 / 16 / 14;
+
 
 }
 
 .div56 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 16 / 13 / 17 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 16 / 13 / 17 / 14;
+
 
 }
 
 .div57 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 17 / 13 / 18 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 17 / 13 / 18 / 14;
+
 
 }
 
 .div58 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 18 / 13 / 19 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 18 / 13 / 19 / 14;
+
 
 }
 
 .div59 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 13 / 20 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 13 / 20 / 14;
+
 
 }
 
 .div60 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 20 / 13 / 21 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 20 / 13 / 21 / 14;
+
 
 }
 
 .div61 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 21 / 13 / 22 / 14;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 21 / 13 / 22 / 14;
+
 
 }
 
 .div62 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 11 / 20 / 12;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 11 / 20 / 12;
+
 
 }
 
 .div63 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 12 / 20 / 13;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 12 / 20 / 13;
+
 
 }
 
 .div64 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 14 / 20 / 15;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 14 / 20 / 15;
+
 
 }
 
 .div65 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 15 / 20 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 15 / 20 / 16;
+
 
 }
 
 .div66 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 16 / 20 / 17;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 16 / 20 / 17;
+
 
 }
 
 .div67 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 17 / 20 / 18;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 17 / 20 / 18;
+
 
 }
 
 .div68 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 18 / 20 / 19;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 18 / 20 / 19;
+
 
 }
 
 .div69 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 19 / 19 / 20 / 20;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 19 / 19 / 20 / 20;
+
 
 }
 
 .div70 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 16 / 12 / 17 / 13;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 16 / 12 / 17 / 13;
+
 
 }
 
 .div71 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 16 / 11 / 17 / 12;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 16 / 11 / 17 / 12;
+
 
 }
 
 .div72 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 16 / 14 / 17 / 15;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 16 / 14 / 17 / 15;
+
 
 }
 
 .div73 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 16 / 15 / 17 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 16 / 15 / 17 / 16;
+
 
 }
 
 .div74 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 15 / 15 / 16 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 15 / 15 / 16 / 16;
+
 
 }
 
 .div75 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 17 / 15 / 18 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 17 / 15 / 18 / 16;
+
 
 }
 
 .div76 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 18 / 15 / 19 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 18 / 15 / 19 / 16;
+
 
 }
 
 .div77 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 22 / 15 / 23 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 22 / 15 / 23 / 16;
+
 
 }
 
 .div78 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 21 / 15 / 22 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 21 / 15 / 22 / 16;
+
 
 }
 
 .div79 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 20 / 15 / 21 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 20 / 15 / 21 / 16;
+
 
 }
 
 .div80 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 23 / 15 / 24 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 23 / 15 / 24 / 16;
+
 
 }
 
 .div81 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 24 / 15 / 25 / 16;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 24 / 15 / 25 / 16;
+
 
 }
 
 .div82 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 23 / 16 / 24 / 17;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 23 / 16 / 24 / 17;
+
 
 }
 
 .div83 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 23 / 17 / 24 / 18;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 23 / 17 / 24 / 18;
+
 
 }
 
 .div84 {
-    
 
-filter: drop-shadow(2px 2px 3px #3cbfc6);    grid-area: 17 / 16 / 18 / 17;
-    
+
+    filter: drop-shadow(2px 2px 3px #3cbfc6);
+    grid-area: 17 / 16 / 18 / 17;
+
 
 }
